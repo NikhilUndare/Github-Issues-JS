@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+#button {
+    text-align: center;
+    padding: 15px;
+}
+
+#load_prev{
+    
+    margin-right: 10px;
+    border-radius: 20px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-weight: bold;
+}
+#load_next{
+    
+    margin-right: 10px;
+    border-radius: 20px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-weight: bold;
+}
+
+#listitem {
+    text-align: center;
+    padding: 15px;
+}
+ol {
+    width: 30%;
+    margin: auto;
+}
+#page-number {
+    padding: 8px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(160, 227, 160);
+    width: 20%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+
+ol > li {
+    padding: 5px;
+    margin: 8px;
+    font-style: italic;
+    background-color: blanchedalmond;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-weight: bold;
+  }
